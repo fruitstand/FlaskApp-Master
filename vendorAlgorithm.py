@@ -4,10 +4,10 @@ import geopy.distance
 
 def findVendors(FruitList, Coordinates):
 
-    db = MySQLdb.connect(host="localhost",    # your host, usually localhost
-                        user="root",         # your username
-                        passwd="1Light8Candles!",  # your password
-                        db="FruitStand")        # name of the data base
+    db = MySQLdb.connect(host="****",    # your host, usually localhost
+                        user="****",         # your username
+                        passwd="****",  # your password
+                        db="****")        # name of the data base
     cur = db.cursor()
 
     MYSQLstring = "WHERE "
